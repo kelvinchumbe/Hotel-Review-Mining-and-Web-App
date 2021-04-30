@@ -1,5 +1,5 @@
 # Hotel Review Mining and Web App
-Link to deployed application
+[Link to deployed application](https://kelvinchumbe.github.io/)
 
 ## Introduction
 
