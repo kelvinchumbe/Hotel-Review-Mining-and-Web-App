@@ -5,12 +5,12 @@ class ReviewsSpider(scrapy.Spider):
 
     allowed_domains = ['www.tripadvisor.co.uk']
     start_urls = [
-        # 'https://www.tripadvisor.co.uk/Hotel_Review-g187051-d239658-Reviews-or0-Hotel_Hilton_London_Gatwick_Airport-Crawley_West_Sussex_England.html'
-        # 'https://www.tripadvisor.co.uk/Hotel_Review-g186338-d193089-Reviews-or0-Hilton_London_Metropole-London_England.html'
-        # 'https://www.tripadvisor.co.uk/Hotel_Review-g186338-d192048-Reviews-or0-Hilton_London_Euston-London_England.html'
-        # 'https://www.tripadvisor.co.uk/Hotel_Review-g186338-d193102-Reviews-or0-DoubleTree_by_Hilton_Hotel_London_West_End-London_England.html#REVIEWS'
-        # 'https://www.tripadvisor.co.uk/Hotel_Review-g186338-d614236-Reviews-or0-Hilton_London_Tower_Bridge-London_England.html#REVIEWS'
-        # 'https://www.tripadvisor.co.uk/Hotel_Review-g186338-d195185-Reviews-or0-Hilton_London_Kensington-London_England.html#REVIEWS'
+        'https://www.tripadvisor.co.uk/Hotel_Review-g187051-d239658-Reviews-or0-Hotel_Hilton_London_Gatwick_Airport-Crawley_West_Sussex_England.html#REVIEWS'
+        'https://www.tripadvisor.co.uk/Hotel_Review-g186338-d193089-Reviews-or0-Hilton_London_Metropole-London_England.html#REVIEWS'
+        'https://www.tripadvisor.co.uk/Hotel_Review-g186338-d192048-Reviews-or0-Hilton_London_Euston-London_England.html#REVIEWS'
+        'https://www.tripadvisor.co.uk/Hotel_Review-g186338-d193102-Reviews-or0-DoubleTree_by_Hilton_Hotel_London_West_End-London_England.html#REVIEWS'
+        'https://www.tripadvisor.co.uk/Hotel_Review-g186338-d614236-Reviews-or0-Hilton_London_Tower_Bridge-London_England.html#REVIEWS'
+        'https://www.tripadvisor.co.uk/Hotel_Review-g186338-d195185-Reviews-or0-Hilton_London_Kensington-London_England.html#REVIEWS'
         'https://www.tripadvisor.co.uk/Hotel_Review-g186338-d275581-Reviews-or0-DoubleTree_by_Hilton_London_Westminster-London_England.html#REVIEWS'
     ]
 
